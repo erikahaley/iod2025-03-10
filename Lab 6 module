@@ -1,0 +1,6 @@
+const book1 = {
+  title: "Goodnight Moon",
+  description: "Kids book to read at night",
+  pages: "ten",
+  author: "Sammy Sam",
+};
