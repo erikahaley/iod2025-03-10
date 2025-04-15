@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+
+background-color: lightblue;
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+info {
+    padding:20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1 ;
+}
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph </p>
+
+<div class="container wrapper">
+<div id="top">
+</div>
+<div id="main">
+<div class="main-image">
+<img scr= "img_nature_width.jpg"
+alt="Norway" style="width:100%;">
+<div class="text-block">
+<p> What a beautiful day</p>
+</div>
+<div>
+<div class="info"> This is a demonstration of how css can change your HTML page
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

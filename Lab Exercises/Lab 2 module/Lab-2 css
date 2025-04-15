@@ -1,0 +1,47 @@
+/* I. Selectors */
+/* Stylesheet1*/ /*Stylesheet2*/ /*Stylesheet3*/ /*Stylesheet4*/ /*NoStyle*/
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+<a> href= "https://fonts.googleapis.com" </a>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=**Quicksand:wght@500**&display=swap" rel="style sheet">
+
+
+
+/* II. Box model and common properties*/
+div 
+{
+  width: 300px
+  border: 15px solid green;
+  padding: 50px: red
+  margin 20px: white
+}
+
+outline-style
+outline-color
+outline-width
+outline-offset
+
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+Static, relative, fixed, absolute, sticky
+
+
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+{
+calc; max(); min();
+}
