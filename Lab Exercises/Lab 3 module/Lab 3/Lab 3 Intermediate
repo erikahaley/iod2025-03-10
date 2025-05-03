@@ -1,0 +1,53 @@
+Creates a function that takes a string as a parameter and returns the string with the first character of each word changed into a capital letter. Test it with different strings.
+console.log(ucFirstLetters( "los angeles") ) //Los Angeles
+console.log(ucFirstLetters( "Monopoly") ) //Monopoly
+
+Create a function that truncates a given string of text if its total length is greater than the max length
+console.log(truncate(animals.push) )
+animals. push ("bird", "tiger", "panda" "owl" "fox" "elephant" "wolf");
+const animal = [ "bird", "panda"];
+animals.push("rabbit", "skunk");
+console.log (animals); // [ " bird", "panda", "rabbit", "skunk" ] 
+
+const animals = [ "bird", "panda"];
+animals.unshift("elephant", "wolf");
+console.log(animals); // [ "elephant", "bird, "panda]
+
+create a function that replaces the value in the middle of the animal array with a new Value
+const animals = [ "bird","elephant","fox","panda", ]
+animals.splice (1, 0, "fox");
+//Inserts at index 1 
+console.log (animals);
+//Expected output: Array ["bird", "elephant", "giraffe", "panda",]
+
+animals.splice (3,1)
+//Replaces 1 element at index 3 
+console.log (animals);
+//Expected output: Array [ "bird", "elephant", "giraffe" "panda"]
+
+create a function finding a matching animal that returns the array containing all animals that begin with that animal
+def findMatchingAnimals(beginsWith, animalList):
+" bee", "eagle", "gorilla", "panther",
+ Returns a new array containing all the animals from the input animalList
+
+ Args:
+ beginsWith: The string to filter the animal list by.
+ animalList: A list of animals names (strings)
+
+ Returns:
+ A new list containing only the animals from the input list that start
+ " bee", "eagle", "gorilla", "panther",
+
+ animalList= ["bird", "elephant", "giraffe" "panda"]
+ matches = FindMatchingAnimals("b", animalList)
+ print(matches) # Output: ['bee']
+  
+  matches = FindMatchingAnimals (e", animalList")
+  print(matches) # Output: ['eagle']
+
+  matches = FindMatchingAnimals("g", animalList)
+  print(matches) # Output: ['gorilla']
+
+  matches = FindMatchingAnimals("p", animalList)
+  print(matches) # Output: ['panther']
+

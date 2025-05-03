@@ -1,0 +1,7 @@
+console.log(camelCase('margin-left')) // margin left
+console.log9(camelCase('background-image')) // backgroundImage
+console.log(camelCase('display')) //display
+
+*stuck (come back to it)
+
+}
